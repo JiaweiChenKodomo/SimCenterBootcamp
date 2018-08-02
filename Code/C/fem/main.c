@@ -4,8 +4,12 @@
 
 int main(int argc, char **argv) {
   Domain theDomain;
+<<<<<<< HEAD
 
   theDomain.theNodes = 0;  //initialize the pointers
+=======
+  theDomain.theNodes=0;
+>>>>>>> dbb52e23161cfd848f75ca96a6beb51d3fa91517
   domainAddNode(&theDomain, 1, 0.0, 0.0);
   domainAddNode(&theDomain, 2, 0.0, 2.0);
   domainAddNode(&theDomain, 3, 1.0, 1.0);
