@@ -14,10 +14,16 @@ void domainAddNode(Domain *theDomain, int tag, double crd1, double crd2) {
   nodeSetup(theNextNode, tag, crd1, crd2);
 
   if (theDomain->theNodes != NULL) {
+<<<<<<< HEAD
     	theNextNode->next = theDomain->theNodes;
 	
   } else {
   	theNextNode->next = NULL;
+=======
+    theNextNode->next = theDomain->theNodes;
+  } else {
+    theNextNode->next = NULL;
+>>>>>>> dbb52e23161cfd848f75ca96a6beb51d3fa91517
   }
 
   theDomain->theNodes = theNextNode;
